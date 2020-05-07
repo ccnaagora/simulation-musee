@@ -7,7 +7,12 @@ Cette base est gérée par une classe gestionBDD (incomplète et inadaptée pour
 Cette activité permet grace à un menu d'appeler une 2ème activité qui gère la mise à jour des documents (à compléter).
 Pour que cet exemple fonctionne, il faut: 
 les fichiers déja présents dans le répertoire download du smartphone orsay.png, carpeaux.png et pdf, vangogh.png et pdf, monet.png et pdf sinon, l'application lève une exception au démarrage et se ferme.
-Il est parfois difficile selon les modèles de smartphones et notemment les émulateurs de copier les fichiers dans le répertoire download. Dans ce cas, on peut faire:
+
+
+
+Il est parfois difficile selon les modèles de smartphones et notemment les émulateurs de copier les fichiers dans le répertoire download. 
+Dans ce cas, on peut faire:
+
 ##*******************************************************************
 ##Essai sur émulateur: nexus4 api25
 ##Chemin reel du Download: /storage/emulated/0/Download/
