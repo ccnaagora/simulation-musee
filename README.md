@@ -16,25 +16,25 @@ Pour que cet exemple fonctionne, il faut:
     
 Il est parfois difficile selon les modèles de smartphones et notemment les émulateurs de copier les fichiers dans le répertoire download.
 Dans ce cas, on peut faire:
-//*******************************************************************<br>
-/**Essai sur émulateur: nexus4 api25
-/**Chemin reel du Download:			/storage/emulated/0/Download/
-/**obtenu par le code java:			Environment.getExternalStorageDirectory().getAbsolutePath()+"/Download/"
+<br>//*******************************************************************<br>
+<br>/**Essai sur émulateur: nexus4 api25
+<br>/**Chemin reel du Download:			/storage/emulated/0/Download/
+<br>/**obtenu par le code java:			Environment.getExternalStorageDirectory().getAbsolutePath()+"/Download/"
 
-/**!Le répertoire Download visible n'est pas le bon, != /storage/emulated/0/Download/
+<br>/**!Le répertoire Download visible n'est pas le bon, != /storage/emulated/0/Download/
 
-/**Pour transférer les fichiers:
-/**1) ouvrir une console windows
-/**2) se déplacer dans le répertoire du sdk android: 	c:\chemin_Local_Vers_Android\sdk\platform-tools
-/** 	(le chemin du sdk est visible dans le fichier local.properties des gradle scripts. attention aux doubles \\)
-/** 	cd c:\chemin_Local_Vers_Android\sdk\platform-tools
-/**3) copier le fichier depuis le répertoire local vers le répertoire download du smartphone en tappant la commande ci-dessous.
-/** 	adb push chemin_vers_fichier_local\orsay.png  /storage/emulated/0/Download/orsay.png  
-/**	    ex: 	adb push D:\wamp64\www\musee\orsay.png /storage/emulated/0/Download/orsay.png
-/**	
-/**4) Vérifier sur le smartphone que l'appli a les droits sur le stockage
-/**	    settings => apps => choisir l'appli 	=> vérifier et/ou modifier les permissions.
-/**	
-/**
-/**5) relancer l'appli, ça devrait fonctionner.
+<br>/**Pour transférer les fichiers:
+<br>/**1) ouvrir une console windows
+<br>/**2) se déplacer dans le répertoire du sdk android: 	c:\chemin_Local_Vers_Android\sdk\platform-tools
+<br>/** 	(le chemin du sdk est visible dans le fichier local.properties des gradle scripts. attention aux doubles \\)
+<br>/** 	cd c:\chemin_Local_Vers_Android\sdk\platform-tools
+<br>/**3) copier le fichier depuis le répertoire local vers le répertoire download du smartphone en tappant la commande ci-dessous.
+<br>/** 	adb push chemin_vers_fichier_local\orsay.png  /storage/emulated/0/Download/orsay.png  
+<br>/**	    ex: 	adb push D:\wamp64\www\musee\orsay.png /storage/emulated/0/Download/orsay.png
+<br>/**	
+<br>/**4) Vérifier sur le smartphone que l'appli a les droits sur le stockage
+<br>/**	    settings => apps => choisir l'appli 	=> vérifier et/ou modifier les permissions.
+<br>/**	
+<br>/**
+<br>/**5) relancer l'appli, ça devrait fonctionner.
 //*****************************************************************************
