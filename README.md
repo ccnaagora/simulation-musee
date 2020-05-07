@@ -16,7 +16,7 @@ Pour que cet exemple fonctionne, il faut:
     
 Il est parfois difficile selon les modèles de smartphones et notemment les émulateurs de copier les fichiers dans le répertoire download.
 Dans ce cas, on peut faire:
-//*******************************************************************\n
+//*******************************************************************<br>
 /**Essai sur émulateur: nexus4 api25
 /**Chemin reel du Download:			/storage/emulated/0/Download/
 /**obtenu par le code java:			Environment.getExternalStorageDirectory().getAbsolutePath()+"/Download/"
